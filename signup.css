@@ -1,0 +1,72 @@
+body
+   {
+     background-size: cover;
+     margin:0px; background-color:#27a465; color:#f7f7f7; font-family:Arial, Helvetica, sans-serif;
+   }
+   #main
+   {
+     width:600px; height:550px; margin-left:auto; margin-right:auto; border-radius:5px; padding-left:10px; margin-top:50px;
+     border-top:3px double #f1f1f1; border-bottom:3px double #f1f1f1; padding-top:20px;
+   }
+   #main table
+   {
+     font-family:"Comic Sans MS", cursive;
+   } 
+  /* css code for textbox */
+  #main .tb
+  {
+    height:28px; width:230px; border:1px solid #27a465; color:#27a465; font-weight:bold; border-left:5px solid #f7f7f7; opacity:0.9;
+  }
+
+   /* css code for button*/
+   #main .btn
+   {
+    width:80px; height:32px; outline:none;  font-weight:bold; border:0px solid #27a465; text-shadow: 0px 0.5px 0.5px #fff;	
+    border-radius: 2px; font-weight: 600; color: #27a465; letter-spacing: 1px; font-size:14px; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;
+   }
+  
+   #main .btn:hover
+   {
+    background-color:#27a465; outline:none;  border-radius: 2px; color:#f1f1f1; border:1px solid #f1f1f1;
+   }
+
+   
+   #password-strength-meter{
+     position: absolute;
+     top: 500px;
+     left: 470px;
+   }
+  #password-strength-text{
+    position: absolute;
+    top: 510px;
+    left: 470px;
+  }
+  #meter {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+  
+    margin: 0 auto 1em;
+    width: 10%;
+    height: 0.5em;
+    
+  
+    /* Applicable only to Firefox */
+    background: none;
+    background-color: rgb(216, 211, 211);
+    
+  }
+  
+  meter::-webkit-meter-bar {
+    background: none;
+    
+    background-color: rgba(245, 248, 248, 0.993);
+  }
+  /* Webkit based browsers */
+meter[value="0"]::-webkit-meter-optimum-value { background: red; }
+meter[value="1"]::-webkit-meter-optimum-value { background: red; }
+meter[value="2"]::-webkit-meter-optimum-value { background: orange; }
+meter[value="3"]::-webkit-meter-optimum-value { background: orange; }
+meter[value="4"]::-webkit-meter-optimum-value { background: green; }
+

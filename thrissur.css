@@ -1,0 +1,52 @@
+body{
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 1400px 500px;
+}
+ .tcr{
+   color: rgb(236, 229, 229);
+   background: rgba(0, 0, 0, 0.5);
+   padding-right: 150px;
+   padding-left: 150px;
+   padding-top: 120px;
+   font-weight: bold ;
+   font-size: 20px;
+ }
+ .explore{
+  text-align: center;
+  position: absolute;
+  top: 550px;
+  padding-left: 450px;
+  }
+.col-lg-8{
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  
+}
+.carousel-content{
+  position: absolute;
+  top: 80%;
+  text-align: center;
+  right: 15%;
+  left: 15%;
+  background:rgba(211, 207, 207, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

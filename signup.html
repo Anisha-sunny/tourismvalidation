@@ -1,0 +1,60 @@
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>Welcome To Signup Form</title>
+  <link rel="stylesheet" href="signup.css">
+  </head>
+
+	<body background="pictures\4vemba.jpg">
+	<!-- Main div code -->
+	<div id="main">
+	<div class="h-tag">
+	<h2>Welcome To Signup Form</h2>
+	</div>
+	<!-- Login box -->
+	<div class="login">
+	<table cellspacing="4" align="center" cellpadding="10" border="0">
+	<tr>
+	<td>Enter First  Name :</td>
+	<td><input type="text" placeholder="Enter Your First Name " id="name" class="tb" /></td>
+	</tr>
+    <td>Enter Second  Name :</td>
+	<td><input type="text" placeholder="Enter Your Second  Name " id="na" class="tb" /></td>
+	</tr>
+    <td>Enter Email ID :</td>
+	<td><input type="text" placeholder="Enter Your Email ID" id="email" class="tb" /></td>
+	</tr>
+    <td>Enter Mobile Number :</td>
+	<td><input type="text" placeholder="Enter Mobile Number" id="mob" class="tb" /></td>
+	</tr>
+    
+
+
+	<tr>
+	<td>Enter Password :</td>
+	<td><input type="password" placeholder="Enter Password here" id="pwd1" class="tb" /></td>
+	</tr>
+
+	<meter max="4" id="password-strength-meter"></meter>
+	<p id="password-strength-text"></p>
+
+    <tr>
+    <td>Retype Password :</td>
+    <td><input type="password" placeholder="Retype Password here" id="pwd2" class="tb" /></td>
+    </tr>
+	<tr>
+	<td></td>
+	<td>
+	<input type="submit" value="Reset" onclick="clearFunc()" class="btn" />
+	<input type="submit" value="Signup" class="btn" onClick="login()" /></td>
+	</tr>
+	</table>
+	</div>
+  	 <!-- login box div ending here.. -->
+	</div>
+	<!-- Main div ending here... -->
+    <script src="signup.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.2.0/zxcvbn.js"></script>
+  </body>
+  </html>
